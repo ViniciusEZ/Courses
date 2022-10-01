@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+.Father h1+p {
+    color: red;
+} */
+/* Adjascent sibling selector
+.Father p+h1 {
+    color: red;
+}
+*/
+
+/*General sibling selector
+.Father h1~p {
+    color: red;
+}
+*/
+
+/* .Father .One~.Two {
+    color: red;
+}
+
+.Two+.One {
+    color: yellow;
+} */
+
+/* [my-atribut~="Value2"] {
+    color: red;
+}
+[checked] {
+    width: 100px;
+    height: 100px;
+}
+ */
+
+ [my-atribut^="Value"] {
+    color: red;
+}

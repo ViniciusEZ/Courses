@@ -1,0 +1,58 @@
+/*px - O que vemos
+em - largura e altura baseadas no elemento pai/ 1 - 100%
+rem - largura e altura baseadas no elemento root 1 - 100%
+vm - vh: largura e altura baseada no viewport
+% - altura e largura baseadas no elemento pai
+vmax - 1% baseado na maior dimensão da página
+vmin - 1% baseado na menor dimensão da página
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.father {
+    width: 50rem;
+    height: 100vh;
+    background: red;
+    overflow: hidden;
+}
+
+.father > div {
+   width: 50%;
+   height: 50rem;
+   background: blue;
+}
+
+.father2 {
+    width: 100vw;
+    height: 100vh;
+    background: greenyellow;
+    overflow: hidden;
+}
+
+.father3 {
+    width: 100vw;
+    height: 100vh;
+    background: cyan;
+    overflow: hidden;
+}
+
+
+
+/* .father {
+    width: 30rem;
+    height: 30rem;
+    background: red;
+} */
+
+p {
+    font-size: 2vmax;
+} 

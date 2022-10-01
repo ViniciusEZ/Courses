@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*Eixo perpêndicular*/
+    justify-content: space-between; /*Eixo principal*/
+    background: #20b2aa;
+    height: 500px;
+    /* flex-wrap: wrap; */
+      /* align-content: center; */
+}
+
+.flex-item {
+    margin: 10px;
+    background: red;
+}
+
+
+
+
+.flex-item:nth-child(3) {
+    font-size: 40px;
+}

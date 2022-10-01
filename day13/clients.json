@@ -1,0 +1,23 @@
+{
+    "1": {
+        "name": "Vinicius",
+        "lastname": "Ezequiel",
+        "age": 19,
+        "height": 1.8,
+        "weight": 80.23
+    },
+    "2": {
+        "name": "Roberto",
+        "lastname": "Marinho",
+        "age": 45,
+        "height": 2.0,
+        "weight": 100
+    },
+    "3": {
+        "name": "Joana",
+        "lastname": "Joaninha",
+        "age": 32,
+        "height": 1.59,
+        "weight": 50.67
+    }
+}

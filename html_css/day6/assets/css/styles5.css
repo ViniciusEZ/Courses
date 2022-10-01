@@ -1,0 +1,18 @@
+/* html, body {
+    height: 100%;
+} */
+
+.Text {
+    box-sizing: border-box;
+    background: red;
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    max-height: 500px;
+    min-width: 0;
+    min-height: 100px;
+    overflow: auto;
+    margin: 0 auto 50px auto;
+    padding: 50px;
+    border: 5px solid black;
+}

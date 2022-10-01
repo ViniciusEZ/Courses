@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+
+
+
+ul {
+    height: 100px;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+    position: sticky;
+    background: lightseagreen;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.father {
+    height: 300vh;
+} */
+
+
+/* .daughter1, .daughter2, .daughter3 {
+    width: 300px;
+    height: 300px;
+    background: rgb(255, 10, 10);
+    margin: 10px;   
+    position: static;
+} */
+
+/* .daughter2 {
+    position: fixed;
+    background: lightseagreen;
+    top: 30%;
+    right: 0;
+    z-index: 1; 
+} */
+
+.daughter1 {
+    /* z-index: 2;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    margin-left: -150px; ;
+    left: 50%;
+     */
+    /* width: auto;
+    height: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    */
+} 
+
+/* .daughter3  {
+    background: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+} */
+/* 
+.other {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+} */
+

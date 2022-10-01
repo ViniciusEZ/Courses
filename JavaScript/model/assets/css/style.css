@@ -1,0 +1,75 @@
+:root {
+    --primary-color: rgb(0, 255, 13);
+    --primary-darker: rgb(3, 27, 4);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form laber, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 20px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-darker);
+}
+
+form button:active {
+    background: rgb(129, 129, 14);
+}
+
+.resp {
+    background: lightblue;
+}
+
+.p-resp {
+    background: lightgreen;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: red;
+    padding: 10px 20px;
+}

@@ -1,0 +1,71 @@
+/*
+style /  ID / Class, Atributs and Pseudo-Classes  /  Elements and Pseudo-elements
+1        1      0                                          0
+0         0      0                                          0                                   
+0         1      1                                          0
+
+style
+! important
+Especificity
+Withdraw
+*/
+
+/* #pe {
+    background-color: red;
+}
+
+#pe.pe {
+    background: lightblue;
+}
+
+#body.bclass p#pe.pe {
+    background: blue !important; 
+}
+ */
+
+
+#text {
+    color: red;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-size: initial;
+}
+
+
+
+
+
+
+
+
+
+
+/* ul li::after {
+    content: ' = ';
+    background: red;
+    color: white;
+    display: block
+} */
+/* 
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+p::first-line {
+    background: red;
+}
+
+p::selection {
+    background: black;
+    color: white;
+} */
+
+/* input::placeholder {
+    color: red;
+    font-size: 30px;
+} */

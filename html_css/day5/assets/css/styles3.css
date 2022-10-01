@@ -1,0 +1,77 @@
+.heading {
+    transition: all 5s ease-in-out;
+}
+
+.heading:hover {
+   background: red;
+}
+
+a {
+    color: red;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: cyan;
+}
+
+a:hover {
+    background: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+
+/* input:focus {
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    outline: none;
+    border: 1px solid black
+}
+
+input:disabled {
+    background: black;
+    cursor: not-allowed;
+}
+
+input:enabled {
+    background: lightblue;
+    cursor: not-allowed;
+} */
+
+/* input:checked + p {
+    background: cyan;
+}
+input:not(checked) + p {
+    background: lightblue;
+}
+
+.Father .List li:last-child {
+    background: red;
+}
+
+input:required {
+    background: red;
+}
+
+
+p:not(.MID) {
+    color: red;
+} */
+
+ul li:nth-child(odd){
+    background-color: red;
+}
+ul li:nth-child(even):hover{
+    background-color: cyan;
+}
+ul li:nth-child(3n+5){
+    background-color: bisque;
+}
