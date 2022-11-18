@@ -1,1 +1,0 @@
-alert('With our message');
